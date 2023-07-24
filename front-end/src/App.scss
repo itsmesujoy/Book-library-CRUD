@@ -1,0 +1,47 @@
+.navigation {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  background-color: #ccc;
+  li {
+    padding: 10px;
+    margin: 5px;
+    list-style: none;
+    cursor: pointer;
+  }
+}
+.book-list {
+  padding: 20px;
+  .table {
+    .actions {
+      button {
+        margin: 0px 10px;
+      }
+    }
+  }
+}
+.pagination {
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  .active{
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+button.pagination-btn {
+  background-color: aqua;
+  margin: 0px 10px;
+}
+
+.book-form{
+  width: 65%;
+  margin: 20px auto;
+  div.error{
+    margin: 6px 0px;
+    text-align: center;
+    color: #f00;
+    width: 66.66666667%;
+    margin-left: 33.3333%;
+  }
+}
