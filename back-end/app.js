@@ -10,6 +10,7 @@ const PORT = 5000;
 app.use(cors());
 app.use(express.json());
 app.use('/', api);
+console.log("hello")
 
 app.use((err, req, res)=>{
     const statusCode = res.statusCode === 200 ? 500 : res.statusCode
